@@ -46,7 +46,6 @@ with open(csvpath, newline='') as csvfile:
         if row[2] == 'Khan':
             KhanCount = KhanCount + 1
             KhanPercentage = KhanCount / totalVotes * 100
-            round(KhanPercentage, 3)
             candVotesPercCnt['Khan'] = (KhanPercentage, KhanCount)
         elif row[2] == 'Correy':
             CorreyCount = CorreyCount + 1
