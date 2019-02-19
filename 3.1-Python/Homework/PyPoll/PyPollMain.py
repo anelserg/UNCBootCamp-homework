@@ -112,7 +112,7 @@ with open(output_path, 'w', newline='') as fw:
     fw.write("Total Votes: " + str(totalVotes)+'\n')
 
     # Write the sixth row
-    fw.write(' ')
+    fw.write(' \n')
 
     # Write the seventh row
     fw.write('-----------------------------\n')

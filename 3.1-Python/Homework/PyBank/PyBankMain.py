@@ -80,7 +80,7 @@ with open(csvpath, newline='') as csvfile:
     
 ### starting the code to write to a csv file
 # Specify the file to write to
-output_path = os.path.join(".", "BudgetWriter.csv")
+output_path = os.path.join(".", "BudgetWriter.txt")
 
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_path, 'w', newline='') as csvWfile:
