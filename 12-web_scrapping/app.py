@@ -21,20 +21,7 @@ db = client.mars_db
 # Drops collection if available to remove duplicates
 db.mars.drop()
 
-# # Creates a collection in the database and inserts two documents
-# db.mars.insert_many(
-#     [
-#         {
-#             'player': 'Jessica',
-#             'position': 'Point Guard'
-#         },
-#         {
-#             'player': 'Mark',
-#             'position': 'Center'
-#         }
-#     ]
-# )
-
+# set index route
 @app.route("/")
 def home():
     # Find one record of data from the mongo database
